@@ -1,0 +1,33 @@
+.slider {
+  max-width: 80%;
+  height: 50%;
+  margin: 100px auto 0;
+  margin-top: 50px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.slidevideo {
+  width: 100%;
+  max-height: 710px;
+  display: block;
+  object-fit: cover;
+}
+@media screen and (max-width: 700px) {
+  .slider {
+    margin: 100px 10px 0;
+    max-width: fit-content;
+    max-height: fit-content;
+    object-fit: cover;
+  }
+
+  .slidevideo {
+    margin: 100px 10px 0;
+    max-width: fit-content;
+    max-height: fit-content;
+    object-fit: cover;
+    display: block;
+  }
+}
